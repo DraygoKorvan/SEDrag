@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CubeBlocks>
+
+<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+	<Id>
+		<TypeId>InteriorLight</TypeId>
+		<SubtypeId>lightDummy</SubtypeId>
+	</Id>
+	<DisplayName>lightDummy</DisplayName>
+	<Icon>Textures\GUI\Icons\Fake_icon.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\lightDummy.mwm</Model>
+	<Public>false</Public>
+	<Components>
+		<Component Subtype="SteelPlate" Count="1" />
+	</Components>
+	<CriticalComponent Subtype="SteelPlate" Index="0" />
+	<BlockPairName>lightDummy</BlockPairName>
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>10000</BuildTimeSeconds>
+	<LightRadius Min="1" Max="10" Default="3.6" />
+	<LightFalloff Min="1" Max="3" Default="1.3" />
+	<LightIntensity Min="0.5" Max="5" Default="1.5" />
+	<ResourceSinkGroup>Utility</ResourceSinkGroup>
+	<RequiredPowerInput>0</RequiredPowerInput>
+	<LightGlare>GlareLsInteriorLight</LightGlare>
+	<DamageEffectId>214</DamageEffectId>
+	<!-- <DamagedSound>ParticleElectrical</DamagedSound> -->
+</Definition>
+
+<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+	<Id>
+		<TypeId>InteriorLight</TypeId>
+		<SubtypeId>lightDummy</SubtypeId>
+	</Id>
+	<DisplayName>lightDummy</DisplayName>
+	<Icon>Textures\GUI\Icons\Fake_icon.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\lightDummy.mwm</Model>
+	<Public>false</Public>
+	<Components>
+		<Component Subtype="SteelPlate" Count="1" />
+	</Components>
+	<CriticalComponent Subtype="SteelPlate" Index="0" />
+	<BlockPairName>lightDummy</BlockPairName>
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>10000</BuildTimeSeconds>
+	<LightRadius Min="1" Max="10" Default="3.6" />
+	<LightFalloff Min="1" Max="3" Default="1.3" />
+	<LightIntensity Min="0.5" Max="5" Default="1.5" />
+	<ResourceSinkGroup>Utility</ResourceSinkGroup>
+	<RequiredPowerInput>0</RequiredPowerInput>
+	<LightGlare>GlareLsInteriorLight</LightGlare>
+	<DamageEffectId>214</DamageEffectId>
+	<!-- <DamagedSound>ParticleElectrical</DamagedSound> -->
+</Definition>
+
+</Definitions>
