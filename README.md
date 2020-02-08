@@ -1,2 +1,0 @@
-# SEDrag
-Space Engineers Drag
