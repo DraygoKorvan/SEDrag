@@ -25,13 +25,194 @@
 		<Y>1</Y>
 	</UVSize>
 	<Color>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0</W>
+		<X>0</X> <!-- Red -->
+		<Y>0</Y> <!-- Green -->
+		<Z>0</Z> <!-- Blue -->
+		<W>0</W> <!-- Transparency -->
 	</Color>
 	<Reflectivity>0</Reflectivity>
 </TransparentMaterial>
 
+<TransparentMaterial>
+	<Id>
+		<TypeId>TransparentMaterialDefinition</TypeId>
+		<SubtypeId>SimpleTransparentPurple</SubtypeId>
+	</Id>      
+	<AlphaMistingEnable>false</AlphaMistingEnable>
+	<AlphaSaturation>1</AlphaSaturation>
+	<CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+	<Emissivity>0</Emissivity>
+	<IgnoreDepth>false</IgnoreDepth>
+	<SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+	<Texture>Textures\Particles\SimpleTransparent.dds</Texture>
+	<UseAtlas>false</UseAtlas>
+	<NeedSort>true</NeedSort>
+	<UVOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</UVOffset>
+	<UVSize>
+		<X>1</X>
+		<Y>1</Y>
+	</UVSize>
+	<Color>
+		<X>0.05</X> <!-- Red -->
+		<Y>0</Y> <!-- Green -->
+		<Z>0.05</Z> <!-- Blue -->
+		<W>0.1</W> <!-- Transparency -->
+	</Color>
+	<Reflectivity>0</Reflectivity>
+</TransparentMaterial>
+
+<TransparentMaterial>
+	<Id>
+		<TypeId>TransparentMaterialDefinition</TypeId>
+		<SubtypeId>SimpleTransparentYellow</SubtypeId>
+	</Id>      
+	<AlphaMistingEnable>false</AlphaMistingEnable>
+	<AlphaSaturation>1</AlphaSaturation>
+	<CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+	<Emissivity>0</Emissivity>
+	<IgnoreDepth>false</IgnoreDepth>
+	<SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+	<Texture>Textures\Particles\SimpleTransparent.dds</Texture>
+	<UseAtlas>false</UseAtlas>
+	<NeedSort>true</NeedSort>
+	<UVOffset>
+		<X>0</X>
+		<Y>0</Y>
+	</UVOffset>
+	<UVSize>
+		<X>1</X>
+		<Y>1</Y>
+	</UVSize>
+	<Color>
+		<X>0.05</X> <!-- Red -->
+		<Y>0.05</Y> <!-- Green -->
+		<Z>0</Z> <!-- Blue -->
+		<W>0.1</W> <!-- Transparency -->
+	</Color>
+	<Reflectivity>0</Reflectivity>
+</TransparentMaterial>
+     <TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>DragWindGlobe</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <AlphaSaturation>1</AlphaSaturation>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <NeedSort>false</NeedSort>
+      <SoftParticleDistanceScale>0</SoftParticleDistanceScale>
+      <Texture>Textures\GUI\Globe.dds</Texture>
+      <Reflectivity>0</Reflectivity>
+      <UseAtlas>false</UseAtlas>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+    </TransparentMaterial>
+    <TransparentMaterial>
+          <Id>
+            <TypeId>TransparentMaterialDefinition</TypeId>
+            <SubtypeId>DragWindArrow</SubtypeId>
+          </Id>
+          <AlphaMistingEnable>false</AlphaMistingEnable>
+          <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+          <AlphaSaturation>1</AlphaSaturation>
+          <Emissivity>0</Emissivity>
+          <IgnoreDepth>false</IgnoreDepth>
+          <NeedSort>false</NeedSort>
+          <SoftParticleDistanceScale>0</SoftParticleDistanceScale>
+          <Texture>Textures\GUI\WindArrow.dds</Texture>
+          <Reflectivity>0</Reflectivity>
+          <UseAtlas>false</UseAtlas>
+          <UVOffset>
+            <X>0</X>
+            <Y>0</Y>
+          </UVOffset>
+          <UVSize>
+            <X>1</X>
+            <Y>1</Y>
+          </UVSize>
+    </TransparentMaterial>
+        <TransparentMaterial>
+              <Id>
+                <TypeId>TransparentMaterialDefinition</TypeId>
+                <SubtypeId>DragVerticalIndicatorBox</SubtypeId>
+              </Id>
+              <AlphaMistingEnable>false</AlphaMistingEnable>
+              <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+              <AlphaSaturation>1</AlphaSaturation>
+              <Emissivity>0</Emissivity>
+              <IgnoreDepth>false</IgnoreDepth>
+              <NeedSort>false</NeedSort>
+              <SoftParticleDistanceScale>0</SoftParticleDistanceScale>
+              <Texture>Textures\GUI\VerticalIndicatorBox.dds</Texture>
+              <Reflectivity>0</Reflectivity>
+              <UseAtlas>false</UseAtlas>
+              <UVOffset>
+                <X>0</X>
+                <Y>0</Y>
+              </UVOffset>
+              <UVSize>
+                <X>1</X>
+                <Y>1</Y>
+              </UVSize>
+    </TransparentMaterial>
+        <TransparentMaterial>
+              <Id>
+                <TypeId>TransparentMaterialDefinition</TypeId>
+                <SubtypeId>DragVerticalIndicatorBoxFill</SubtypeId>
+              </Id>
+              <AlphaMistingEnable>false</AlphaMistingEnable>
+              <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+              <AlphaSaturation>1</AlphaSaturation>
+              <Emissivity>0</Emissivity>
+              <IgnoreDepth>false</IgnoreDepth>
+              <NeedSort>false</NeedSort>
+              <SoftParticleDistanceScale>0</SoftParticleDistanceScale>
+              <Texture>Textures\GUI\VerticalIndicatorBoxFill.dds</Texture>
+              <Reflectivity>0</Reflectivity>
+              <UseAtlas>false</UseAtlas>
+              <UVOffset>
+                <X>0</X>
+                <Y>0</Y>
+              </UVOffset>
+              <UVSize>
+                <X>1</X>
+                <Y>1</Y>
+              </UVSize>
+    </TransparentMaterial>
+            <TransparentMaterial>
+                  <Id>
+                    <TypeId>TransparentMaterialDefinition</TypeId>
+                    <SubtypeId>DragWindPlate</SubtypeId>
+                  </Id>
+                  <AlphaMistingEnable>false</AlphaMistingEnable>
+                  <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+                  <AlphaSaturation>1</AlphaSaturation>
+                  <Emissivity>0</Emissivity>
+                  <IgnoreDepth>false</IgnoreDepth>
+                  <NeedSort>false</NeedSort>
+                  <SoftParticleDistanceScale>0</SoftParticleDistanceScale>
+                  <Texture>Textures\GUI\WindPlate.dds</Texture>
+                  <Reflectivity>0</Reflectivity>
+                  <UseAtlas>false</UseAtlas>
+                  <UVOffset>
+                    <X>0</X>
+                    <Y>0</Y>
+                  </UVOffset>
+                  <UVSize>
+                    <X>1</X>
+                    <Y>1</Y>
+                  </UVSize>
+    </TransparentMaterial>
 </TransparentMaterials>
 </Definitions>

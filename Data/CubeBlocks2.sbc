@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CubeBlocks>
+
+
+<Definition>
+	<Id>
+		<TypeId>TerminalBlock</TypeId>
+		<SubtypeId>Large_centerofliftghost</SubtypeId>
+	</Id>
+	<DisplayName>centerofliftghost</DisplayName>
+	<Icon>Textures\GUI\Icons\Fake_icon.dds</Icon>
+	<Public>false</Public>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\LG_centerofliftghost.mwm</Model>
+	<Components>
+		<Component Subtype="SteelPlate" Count="1" />
+	</Components>
+	<CriticalComponent Subtype="Computer" Index="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>10000</BuildTimeSeconds>
+</Definition>
+
+<Definition>
+	<Id>
+		<TypeId>TerminalBlock</TypeId>
+		<SubtypeId>Large_centerofmassghost</SubtypeId>
+	</Id>
+	<DisplayName>centerofmassghost</DisplayName>
+	<Icon>Textures\GUI\Icons\Fake_icon.dds</Icon>
+	<Public>false</Public>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\LG_centerofmassghost.mwm</Model>
+	<Components>
+		<Component Subtype="SteelPlate" Count="1" />
+	</Components>
+	<CriticalComponent Subtype="Computer" Index="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>10000</BuildTimeSeconds>
+</Definition>
+
+<!-- SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS -->
+<!-- SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS -->
+<!-- SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS -->
+<!-- SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS -->
+<!-- SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS ooooo SMALL BLOCKS -->
+
+<Definition>
+	<Id>
+		<TypeId>TerminalBlock</TypeId>
+		<SubtypeId>Small_centerofliftghost</SubtypeId>
+	</Id>
+	<DisplayName>centerofliftghost</DisplayName>
+	<Icon>Textures\GUI\Icons\Fake_icon.dds</Icon>
+	<Public>false</Public>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\SM_centerofliftghost.mwm</Model>
+	<Components>
+		<Component Subtype="SteelPlate" Count="1" />
+	</Components>
+	<CriticalComponent Subtype="Computer" Index="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>10000</BuildTimeSeconds>
+</Definition>
+
+<Definition>
+	<Id>
+		<TypeId>TerminalBlock</TypeId>
+		<SubtypeId>Small_centerofmassghost</SubtypeId>
+	</Id>
+	<DisplayName>centerofmassghost</DisplayName>
+	<Icon>Textures\GUI\Icons\Fake_icon.dds</Icon>
+	<Public>false</Public>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\SM_centerofmassghost.mwm</Model>
+	<Components>
+		<Component Subtype="SteelPlate" Count="1" />
+	</Components>
+	<CriticalComponent Subtype="Computer" Index="0" />
+	<EdgeType>Light</EdgeType>
+	<BuildTimeSeconds>10000</BuildTimeSeconds>
+</Definition>
+
+</CubeBlocks>
+<BlockPositions>
+
+</BlockPositions>
+</Definitions>
